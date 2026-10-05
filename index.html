@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Criterio Comercial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <!-- PANTALLA DE BIENVENIDA: EXPLOSIÓN DE COLORES -->
+  <div id="splashScreen" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: #0b1528; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 99999; overflow: hidden; transition: opacity 0.8s ease, transform 0.8s ease;">
+    <!-- Partículas de la explosión de colores -->
+    <div class="particle p1"></div>
+    <div class="particle p2"></div>
+    <div class="particle p3"></div>
+    <div class="particle p4"></div>
+    <div class="particle p5"></div>
+    <div class="particle p6"></div>
+    
+    <!-- Contenedor del título con brillo -->
+    <div class="splash-logo-box" style="text-align: center; position: relative; z-index: 10;">
+      <span style="font-size: 50px; display: block; margin-bottom: 10px; animation: floatLogo 2s ease-in-out infinite;">🧠⚡️💼</span>
+      <h1 style="color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 36px; font-weight: 800; letter-spacing: 3px; margin: 0; text-transform: uppercase; background: linear-gradient(45deg, #ff007f, #ff7700, #00f0ff, #00ff77); -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: colorShift 4s linear infinite;">
+        Simulador Comercial
+      </h1>
+      <p style="color: #a4b3c6; font-family: sans-serif; font-size: 14px; letter-spacing: 4px; margin-top: 10px; text-transform: uppercase;">
+        Criterio de Alta Gama
+      </p>
+    </div>
+  </div>
+
+
+  <header class="topbar no-print">
+    <div>
+      <span class="eyebrow">Plataforma de Entrenamiento Pro</span>
+      <h1>Simulador de Criterio Comercial</h1>
+      <p id="subheading">Basado en 10 Casos de Éxito Reales de Alta Gama</p>
+    </div>
+    <div class="brand-mark">CC</div>
+  </header>
+
+  <main class="container no-print">
+    <!-- PANTALLA INICIAL: SELECCIÓN DE INDUSTRIA Y AVATAR -->
+    <section id="home" class="screen active">
+      <div class="card hero">
+        <div>
+          <span class="pill">MÓDULO PROFESIONAL</span>
+          <h2>¿Sabes pensar como un asesor experto?</h2>
+          <p>Este simulador evalúa tu argumentación libre (por texto o voz) frente a las objeciones más difíciles basadas en historias reales de éxito comercial. Selecciona tu perfil y tu módulo:</p>
+          
+          <div class="avatar-selector-zone" style="margin: 20px 0; padding: 15px; background: #f8fbfe; border-radius: 12px; border: 1px solid var(--line);">
+            <strong style="color: var(--primary); display: block; margin-bottom: 10px;">👨‍💼 Selecciona tu Avatar de Asesor:</strong>
+            <div style="display: flex; gap: 15px;">
+              <label style="cursor:pointer; display: flex; align-items: center; gap: 5px;">
+                <input type="radio" name="advisorAvatar" value="👨‍💼" checked> <span style="font-size: 24px;">👨‍💼</span> Asesor Joven
+              </label>
+              <label style="cursor:pointer; display: flex; align-items: center; gap: 5px;">
+                <input type="radio" name="advisorAvatar" value="👩‍💼"> <span style="font-size: 24px;">👩‍💼</span> Asesora Joven
+              </label>
+              <label style="cursor:pointer; display: flex; align-items: center; gap: 5px;">
+                <input type="radio" name="advisorAvatar" value="👨‍💼" data-senior="true"> <span style="font-size: 24px;">👨‍💻</span> Asesor Sénior
+              </label>
+              <label style="cursor:pointer; display: flex; align-items: center; gap: 5px;">
+                <input type="radio" name="advisorAvatar" value="👩‍💼" data-senior="true"> <span style="font-size: 24px;">👩‍💻</span> Asesora Sénior
+              </label>
+            </div>
+          </div>
+
+          <div class="market-selector">
+            <button class="primary market-btn" data-file="scenarios/banca.json">💼 Módulo Banca Élite (Casos Reales)</button>
+            <button class="secondary market-btn" data-file="scenarios/automotriz.json">🚗 Módulo Corporativo & Flotas</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid three">
+        <article class="card">
+          <h3>🔍 Diagnóstico</h3>
+          <p>¿Preguntas antes de asumir la necesidad oculta del cliente?</p>
+        </article>
+        <article class="card">
+          <h3>🧠 Criterio</h3>
+          <p>¿Estructuras soluciones de alto valor o solo eres un tomador de pedidos?</p>
+        </article>
+        <article class="card">
+          <h3>🤝 Ética y Cierre</h3>
+          <p>¿Transfieres confianza absoluta y defiendes la rentabilidad?</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PANTALLA DEL SIMULADOR -->
+    <section id="simulator" class="screen">
+      <div class="sim-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
+        <div>
+          <span id="scenarioLabel" class="eyebrow">Campaña Activa</span>
+          <h2 id="scenarioTitle">Cargando caso...</h2>
+        </div>
+        <div style="display: flex; align-items: center; gap: 20px;">
+          <div class="progress-wrap">
+            <span id="stepLabel">Caso Real 0 de 0</span>
+            <div class="progress"><div id="progressBar"></div></div>
+          </div>
+          <!-- NUEVO: Botón Home de salida directa para evitar F5 -->
+          <button id="abortToHomeBtn" type="button" style="background: #fff0f0; color: #b42318; padding: 10px 16px; font-size: 13px; font-weight: bold; border-radius: 8px; border: 1px solid #f1b8b1; cursor: pointer; display: flex; align-items: center; gap: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+            🏠 Salir al Inicio
+          </button>
+        </div>
+      </div>
+
+      <div class="grid simulator-grid" style="margin-top: 20px;">
+        <!-- Ficha del Cliente -->
+        <article class="card client-card">
+          <div class="client-head">
+            <div class="avatar" id="avatar" style="font-size: 24px;">👤</div>
+            <div>
+              <strong id="clientName">Cliente</strong>
+              <span id="clientRole">Rol</span>
+            </div>
+          </div>
+          <div id="conversation" class="conversation"></div>
+        </article>
+
+        <!-- Toma de Decisiones mediante Argumentación Libre / Voz -->
+        <article class="card decision-card">
+          <div class="decision-title">
+            <span class="pill">Tu Estrategia Comercial</span>
+            <h3 id="question" style="margin-bottom: 5px;">Planteamiento de la Objeción</h3>
+            <p id="focusEval" style="font-size: 13px; color: var(--muted); margin-top: 5px; font-style: italic; font-weight: 500;"></p>
+          </div>
+          
+          <div class="input-area" style="margin-top: 15px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <label for="advisorResponse" style="font-size: 13px; font-weight: bold; color: var(--primary);">
+                Escribe o dicta tu respuesta para el cliente:
+              </label>
+              <button id="voiceBtn" type="button" style="background: #eef2f6; color: var(--text); padding: 6px 12px; font-size: 12px; border-radius: 20px; display: flex; align-items: center; gap: 5px; border: 1px solid var(--line);">
+                🎙️ Dictar por Voz
+              </button>
+            </div>
+            <textarea id="advisorResponse" rows="5" style="width: 100%; border: 1px solid var(--line); border-radius: 10px; padding: 12px; font-family: inherit; font-size: 14.5px; resize: none; box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);" placeholder="Redacta tu propuesta de valor o presiona 'Dictar por Voz' para hablar..."></textarea>
+          </div>
+
+          <div style="margin-top: 15px; text-align: right;">
+            <button id="submitResponseBtn" class="primary" style="width: 100%; padding: 12px; font-weight: bold;">Enviar Respuesta a Evaluación</button>
+          </div>
+
+          <div id="feedback" class="feedback hidden" style="margin-top: 20px;"></div>
+          <button id="nextBtn" class="secondary hidden" style="width: 100%; margin-top: 10px; font-weight: bold;">Continuar al Siguiente Escenario</button>
+        </article>
+      </div>
+    </section>
+    <!-- PANTALLA DE RESULTADOS -->
+    <section id="result" class="screen">
+      <div class="card result-card">
+        <span class="pill">Evaluación Consolidada</span>
+        <h2 id="resultTitle">Resultado General</h2>
+        <div class="big-score"><span id="finalScore">0</span><small>/100</small></div>
+        <p id="resultSummary"></p>
+
+        <div class="score-bars" id="scoreBars"></div>
+
+        <div class="card inner">
+          <h3>💡 Feedback de Mejora</h3>
+          <ul id="improvements"></ul>
+        </div>
+
+        <div class="actions">
+          <button id="retryBtn" class="primary">Intentar de nuevo</button>
+          <button id="homeBtn" class="secondary">Volver al inicio</button>
+        </div>
+      </div>
+
+      <!-- SECCIÓN DEL CERTIFICADO DEL ASESOR SÉNIOR -->
+      <div class="card supervisor-dashboard" style="margin-top: 30px; text-align: left;">
+        <h3 style="color: var(--primary); border-bottom: 2px solid var(--line); padding-bottom: 10px; margin-top: 0;">
+          🎓 Certificación de Habilidades Comerciales
+        </h3>
+        <p style="color: var(--muted); font-size: 14px;">Si logras superar las auditorías con una nota global mayor a 85%, el sistema desbloqueará tu credencial corporativa oficial.</p>
+        
+        <div style="margin-top: 20px; text-align: center;">
+          <button id="openDiplomaBtn" style="background: #a4a4a4; color: white; padding: 15px 30px; font-size: 15px; border: none; border-radius: 8px; cursor: not-allowed; font-weight: bold; width: 100%; display: flex; align-items: center; justify-content: center; gap: 10px;" disabled>
+            🔒 Certificado Bloqueado (Requiere nota Élite ≥ 85%)
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- VISTA EXCLUSIVA DE IMPRESIÓN: EL DIPLOMA DIGITAL CORPORATIVO -->
+  <div id="diplomaContainer" class="diploma-print-view hidden">
+    <div class="diploma-border">
+      <div class="diploma-inner-border">
+        <div class="diploma-header">
+          <span class="gold-text">⭐️ CREDENCIAL DE EXCELENCIA AAA ⭐️</span>
+          <h2>CERTIFICADO DE CRITERIO COMERCIAL</h2>
+          <span class="subtitle">OTORGADO POR LA ACADEMIA DE ENTRENAMIENTO BPO</span>
+        </div>
+
+        <div class="diploma-body">
+          <p class="text-flat">Se certifica con honores que el consultor institucional:</p>
+          <h1 id="certName">ASIGNANDO ASESOR...</h1>
+          <p class="text-reason">
+            Ha superado con éxito las deudas y objeciones en tiempo real del **Módulo de Banca Élite**, demostrando habilidades sobresalientes en la gestión de crisis operativas, empatía táctica, estructuración financiera consultiva y cierre estratégico por referidos.
+          </p>
+          <p class="text-title-assigned">Por haber demostrado un puntaje global Élite, se le confiere el título oficial de:</p>
+          <div class="gold-badge">CONSULTOR COMERCIAL SÉNIOR</div>
+        </div>
+
+        <div class="diploma-footer">
+          <div class="signature-block">
+            <div class="line-sig"></div>
+            <span>Firma del Director de Operaciones</span>
+            <small>Nexa BPO / Área Corporativa</small>
+          </div>
+          <div class="stamp-block">
+            <div class="stamp">SELLO<br>AAA</div>
+          </div>
+          <div class="signature-block">
+            <div class="line-sig"></div>
+            <span>Evaluador de Criterio IA</span>
+            <small>Auditoría Automatizada</small>
+          </div>
+        </div>
+        
+        <div style="margin-top: 15px; font-size: 11px; color: #a4a4a4;" id="certDate">Fecha de Emisión</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

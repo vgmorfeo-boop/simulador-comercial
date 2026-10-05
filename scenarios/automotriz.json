@@ -1,0 +1,117 @@
+{
+  "industry": "Maquinaria Agroindustrial & Equipos Pesados",
+  "campaign": "Motomart Nacional: Tractores, Cosechadoras y Soluciones del Campo",
+  "cases": [
+    {
+      "id": "moto_1_banco_agrario",
+      "title": "Bloqueo por demora en el desembolso del Banco Agrario",
+      "client": {
+        "name": "Don Argemiro Silva",
+        "role": "Productor Arrocero (Tolima)",
+        "avatar": "🧑‍🌾",
+        "context": "Tiene listo el negocio para un tractor John Deere de 120 HP porque la preparación de la tierra se le vino encima. El crédito está aprobado en el Banco Agrario, pero la oficina lleva 15 días frenada con el desembolso por burocracia documental. El cliente está desesperado y a punto de cancelar la compra."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "Mire, yo sé que el tractor está separado, pero si el Banco Agrario no me desembolsa esta semana, se me pasa el tiempo de siembra y pierdo el año. Si ustedes no me ayudan a presionar allá o me dan una alternativa de entrega inmediata, cancelo el negocio y miro si la competencia me resuelve.",
+          "focus_eval": "Foco de Mitigación de Crisis: No te escudes en que el banco es externo. Ofrécete a intervenir presencialmente con el gerente del banco o plantea una opción de entrega con pagaré o garantía real de Motomart. (Palabras clave requeridas: presencial, banco, gerente, intervenir, pagaré, pagare, garantía, garantia, entrega, gestionar)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "Bueno, si usted mismo va a ir a hablar con el gerente zonal del banco y me respalda con ese pagaré para liberar el tractor mañana, seguimos adelante. Pero apenas desembolsen, ¿cómo cuadramos las cuentas?",
+          "focus_eval": "Foco de Cierre y Multiplicación: Operación salvada. Solicita referidos de otros arroceros de la asociación antes de cerrar el caso en el sistema. (Palabras clave requeridas: referido, contacto, arrocero, vecino, asociación, asociacion, recomendar, teléfono, número)."
+        }
+      ]
+    },
+    {
+      "id": "moto_2_objecion_precio",
+      "title": "Objeción por precio frente a la competencia china",
+      "client": {
+        "name": "Don Efraín Pastrana",
+        "role": "Ganadero y Cultivador de Maíz (Llanos)",
+        "avatar": "🧑‍🌾",
+        "context": "Está cotizando una cosechadora de forraje. Te dice que la máquina de Motomart es espectacular, pero que una marca china le ofrece una capacidad similar por un 30% menos de precio. Su enfoque es netamente de costo inmediato."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "La máquina de ustedes se ve muy buena, pero los chinos me están dejando una con la misma potencia por un 30% menos. En estos tiempos difíciles del agro, yo no puedo regalar la plata, un peso es un peso. ¿Por qué tendría que pagarles más a ustedes?",
+          "focus_eval": "Foco de Valor de Ciclo de Vida: No des descuentos tempranos. Cambia el argumento hacia el costo de parada por falta de repuestos, servicio técnico en finca 24/7 y valor de reventa. (Palabras clave requeridas: repuestos, servicio técnico, servicio tecnico, finca, mantenimiento, reventa, durabilidad, garantizado, parada)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "Tiene mucha razón en lo del costo de tener la máquina parada en plena cosecha de forraje; los chinos no tienen talleres acá. Me convenció el respaldo de Motomart. Hagamos el pedido de una vez.",
+          "focus_eval": "Foco de Cierre y Multiplicación: Cierre exitoso por valor de respaldo. Solicita referidos de ganaderos vecinos de la zona. (Palabras clave requeridas: referido, contacto, ganadero, vecino, finquero, recomendar, teléfono, número)."
+        }
+      ]
+    },
+    {
+      "id": "moto_3_leasing_financiero",
+      "title": "Estrategia de Leasing Financiero por flujo de caja",
+      "client": {
+        "name": "Doña Beatriz Hoyos",
+        "role": "Gerente de Agro-Inversiones de la Sabana",
+        "avatar": "👩‍💼",
+        "context": "Necesita renovar una flota de 3 minicargadores para su empresa de flores. Financieramente es muy hábil. Su problema es que no quiere descapitalizar la empresa pagando de contado ni quiere alterar sus indicadores de endeudamiento en el balance tradicional."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "Los equipos se necesitan ya, pero no voy a sacar capital de trabajo de la empresa para comprarlos de contado, y un crédito tradicional me daña los índices de endeudamiento frente a la junta directiva. Si no hay otra opción financiera que me dé ventajas tributarias, suspendemos la renovación.",
+          "focus_eval": "Foco de Estructuración Financiera Avanzada: Plantea el modelo de Arrendamiento Operativo o Leasing Financiero, explicando el beneficio del gasto operativo (OPEX) y la deducción tributaria. (Palabras clave requeridas: leasing, arrendamiento, tributario, deducible, gasto, balance, opex, capital de trabajo, renta)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "Esa opción de Leasing Financiero cargado como gasto operativo es justo lo que la junta directiva me va a aprobar para no tocar los activos. Procedamos con el trámite de los 3 minicargadores.",
+          "focus_eval": "Foco de Cierre B2B: Negocio de flota cerrado. Solicita referidos de otras empresas floricultoras o proveedores del gremio. (Palabras clave requeridas: referido, contacto, gremio, floricultor, proveedor, recomendar, teléfono, número)."
+        }
+      ]
+    },
+    {
+      "id": "moto_4_crisis_repuestos",
+      "title": "Gestión de crisis operativa por máquina parada",
+      "client": {
+        "name": "Don Humberto Eljach",
+        "role": "Gran Cultivador de Caña (Valle)",
+        "avatar": "👨",
+        "context": "Entra furioso a la distribuidora. Compró un tractor de alta gama hace 6 meses y la transmisión falló en plena zafra. El taller le dice que el repuesto importado demora 15 días en llegar. El cliente está perdiendo millones por día de parada."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "¡Esto es una vagabundería! Les compré un tractor multimillonario y ahora tengo la cosecha parada porque el repuesto no está en el país. Cada día perdiendo plata por su ineficiencia. ¡O me solucionan ya mismo o les meto una demanda y me devuelven mi dinero!",
+          "focus_eval": "Foco de Mitigación de Daños y Empatía Táctica: Asume la carga del problema. Ofrécele una máquina de demostración (tractor de respaldo de Motomart) en préstamo sin costo mientras llega el repuesto importado. (Palabras clave requeridas: respaldo, préstamo, prestamo, demostración, demostracion, sin costo, tranquilidad, solución, repuesto)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "Mire... que me traigan un tractor de respaldo a la finca mañana a primera hora es lo mínimo que esperaba de una empresa seria. Me calma el bolsillo mientras llega mi repuesto. Mantengo el negocio por su gestión.",
+          "focus_eval": "Foco de Retención y Multiplicación: Alianza salvada bajo crisis. Solicita referidos de otros ingenios o cultivadores de caña de la zona. (Palabras clave requeridas: referido, contacto, ingenio, cañicultor, vecino, recomendar, teléfono, número)."
+        }
+      ]
+    },
+    {
+      "id": "moto_5_dimensionamiento_riego",
+      "title": "Venta consultiva de sistemas de riego por productividad",
+      "client": {
+        "name": "Don Gustavo Petro (Homónimo)",
+        "role": "Productor de Frutales (Huila)",
+        "avatar": "🧑‍🌾",
+        "context": "Quiere comprar un sistema de bombeo de agua. Está enfocado en pedir la motobomba más barata del catálogo sin evaluar si el caudal o la presión técnica le van a servir para la topografía inclinada de su finca de cítricos."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "Vengo por la motobomba de 5 caballos que vi en promoción en el folleto. Es la más barata y asumo que con eso tengo para echarle agua a mis árboles de naranja. No me metan equipos caros que no necesito.",
+          "focus_eval": "Foco de Asesoría de Ingeniería Agrícola: Detén la compra errónea de forma ética. Explícale la importancia de analizar la topografía, la altura y la presión técnica para evitar que queme el motor o no le llegue el agua. (Palabras clave requeridas: topografía, topografia, presión, presion, caudal, altura, hectáreas, hectareas, técnico, inclinación, inclinacion)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "No había pensado en la inclinación de la loma ni en la pérdida de presión por la altura de la finca. Menos mal me hace el análisis técnico porque hubiera botado la plata comprando esa chiquita. Cotíceme el sistema de riego dimensionado correcto para mis hectáreas.",
+          "focus_eval": "Foco de Cierre Técnico Consultivo: Venta expandida éticamente. Solicita referidos de otros fruticultores de la asociación local. (Palabras clave requeridas: referido, contacto, fruticultor, vecino, asociación, recomendar, teléfono, número)."
+        }
+      ]
+    }
+  ]
+}
+
