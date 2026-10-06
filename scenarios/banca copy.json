@@ -1,0 +1,258 @@
+{
+  "industry": "BPO & Banca Corporativa Élite",
+  "campaign": "Libranzas Premium, Compra de Cartera y Gestión de Crisis",
+  "cases": [
+    {
+      "id": "caso_1_ingenieria_liquidez",
+      "title": "Bloqueo por sobreendeudamiento y desconfianza financiera",
+      "client": {
+        "name": "Milena Gómez",
+        "role": "Perfil Altamente Financiero / Inversionista",
+        "avatar": "M",
+        "context": "Su hermano fue rechazado por el banco. Ella tiene excelente historial pero está ahogada en cuotas de tarjetas de crédito. Teme adquirir una nueva obligación mensual que reduzca su caja."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "Hola, mi hermano me dio su contacto. Trabajo en una clínica privada y estoy interesada en invertir en un restaurante; necesito unos 90 millones de pesos. Sin embargo, manejo unas tarjetas de crédito y no quiero que mi flujo de caja se vea afectado por una nueva deuda.",
+          "focus_eval": "Foco: Protocolo consultivo básico de oficina. Solicita el desprendible de nómina para auditar su verdadera capacidad de pago inicial en el sistema. (Palabras clave requeridas: desprendible, nomina, nómina, desprendibles, capacidad, sistema, revisar, papeles)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "Ya le envié el desprendible... Veo que me aprobaron 100 millones con cuota de $2.780.000 a 72 meses al 1.18%. Me sirve el dinero, pero sumando las cuotas de mis tarjetas actuales más esta nueva cuota, mi flujo de caja se revienta. Qué pena con usted, pero mejor voy a esperar y no tomo nada.",
+          "focus_eval": "Foco de Indagación de Ingresos Ocultos: El cliente se va a retirar. No lo dejes ir. Proponle compra de cartera e indágale si tiene otros ingresos o negocios colaterales para aumentar su cupo. (Palabras clave requeridas: compra de cartera, tarjetas, unificar, consolidar, otros ingresos, negocio, spa, ingresos extra, declaracion, renta)."
+        },
+        {
+          "step_id": 3,
+          "client_speech": "¡Vaya! El banco no tuvo en cuenta los papeles del Spa y me bajaron el monto definitivo a solo 98 millones de pesos. Así no me alcanza para los 90 del restaurante y pagar las tarjetas. Qué desgaste, dejemos eso así más bien, ya no me interesa el crédito.",
+          "focus_eval": "Foco de Manejo de Crisis Operativa (Mesa Élite): El negocio se cayó por culpa del banco. Aplica la ponderación de tasas (demuestra que paga más del 2% en tarjetas), explícale el concepto de matar la 'deuda improductiva' y muéstrale que le quedan $75 millones líquidos para el restaurante buscando el punto de equilibrio. (Palabras clave requeridas: ponderar, tasa, dos por ciento, improductiva, liquidez, 75 millones, punto de equilibrio, equilibrio, liquidar tarjetas)."
+        },
+        {
+          "step_id": 4,
+          "client_speech": "Increíble análisis... Nadie me había hecho la matemática de esa manera. Tiene toda la razón, prefiero matar esa deuda improductiva y quedarme con los 75 millones libres para arrancar el restaurante. ¡Hagamos el proceso de inmediato!",
+          "focus_eval": "Foco de Cierre y Multiplicación Exigente: El cliente aceptó gracias a tus números. Aplica la regla obligatoria de solicitar referidos comerciales antes de cerrar el chat. (Palabras clave requeridas: referido, contacto, conocido, recomendar, amigo, teléfono, número, celular)."
+        }
+      ]
+    },
+    
+    {
+      "id": "caso_2_transferencia_confianza",
+      "title": "El detonante de rapport en eventos masivos",
+      "client": {
+        "name": "Pareja de Profesores Pensionados",
+        "role": "Docentes de FiduPrevisora · Tercera Edad",
+        "avatar": "P",
+        "context": "Se sientan en la mesa 16 de un evento masivo de libranzas del Banco Popular en Florencia. Están prevenidos y cerrados a adquirir deudas en la mesa. Te dicen que quieren remodelar la casa pero que no es el momento, que solo quieren pasar al salón principal a ver el show y el evento."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "Muchas gracias por la información, joven, se nota que es muy amable. Pero la verdad no queremos amarrarnos a ninguna deuda ahorita. Solo vinimos a pasar al salón para ver el show y disfrutar del evento.",
+          "focus_eval": "Foco de Rapport y Flexibilidad Comercial: No los presiones en la mesa ni les insistas con tasas. Dales su espacio, empatiza con su deseo de ver el show y ofrécete a llevarlos y ubicarlos en el salón principal. (Palabras clave requeridas: espacio, show, evento, salon, salón, llevar, ubicar, acompañar, disfrutar)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "¡Ay, muchacho, qué puesto tan bueno nos conseguiste, desde acá se ve perfecto el show! Mire, el animador del concurso está haciendo una pregunta para regalar un premio en la dinámica del escenario, pero no nos sabemos la respuesta.",
+          "focus_eval": "Foco de Detonante Ambiental de Confianza: Estás en el show con ellos y se activa el concurso. Transfiéreles seguridad dándoles la respuesta exacta para que se ganen el premio del animador y rompas la frialdad corporativa. (Palabras clave requeridas: respuesta, premio, animador, concurso, ganar, ganaron, dinámica, saber)."
+        },
+        {
+          "step_id": 3,
+          "client_speech": "¡Increíble, nos ganamos el premio gracias a usted! Qué momento tan agradable pasamos. Joven, viendo que nos ahorramos las filas del banco y que podemos hacer el trámite aquí mismo sin perder el tiempo, convenza a mi esposo y fírmenos de una vez los dos créditos de 25 millones cada uno para arreglar la casa.",
+          "focus_eval": "Foco de Cierre y Multiplicación Comercial: El crédito de 50 millones está cerrado con total confianza. Aplica la regla obligatoria de solicitar referidos comerciales de otros docentes antes de despedirte. (Palabras clave requeridas: referido, contacto, profesor, docente, colega, conocido, recomendar, teléfono, número)."
+        }
+      ]
+    },
+    {
+      "id": "caso_3_entrevista_consultiva",
+      "title": "Venta cruzada reactiva mediante análisis de capacidad",
+      "client": {
+        "name": "Don Horacio Buendía",
+        "role": "Docente Pensionado y Activo",
+        "avatar": "H",
+        "context": "Es tu último día en el banco. La oficina de Tocaima está llena. Don Horacio se sienta en tu escritorio únicamente con la intención operativa de solicitar un cambio físico de su tarjeta débito porque el cajero se la rechaza."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "Buenas tardes, vengo a que me colabore cambiando esta tarjeta débito que no me pasa en el cajero. No me demore mucho por favor que el transporte me está esperando afuera.",
+          "focus_eval": "Foco de Protocolo de Captura y Auditoría: Atiende al cliente con amabilidad y solicita obligatoriamente la cédula para radicar el cambio de tarjeta e investigar de forma oculta su portafolio en el sistema. (Palabras clave requeridas: cedula, cédula, documento, identificación, id, sistema, consultar, registrar, cambiar)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "Aquí tiene mi cédula... Joven, ¿qué es lo que está mirando tanto en esa pantalla? Cuénteme rápido que me tengo que ir.",
+          "focus_eval": "Foco de Hallazgo Inicial: El sistema arroja dos créditos activos (FOPE y FiduPrevisora). Proponle descargar el desprendible para revisar saldos y ofrecerle una ampliación de cupo con una tasa más económica. (Palabras clave requeridas: fope, fidu, fiduprovisora, crédito, saldos, ampliación, tasa, económica, descargar, desprendible)."
+        },
+        {
+          "step_id": 3,
+          "client_speech": "Ya descargó el desprendible... Sí, tengo esos dos créditos vigentes, pero mi sueldo ya llega bajito. No creo que tenga más capacidad en mi nómina para endeudarme más.",
+          "focus_eval": "Foco de Deducción de Campo (Detective Financiero): Al revisar las centrales, deduces que es docente activo porque tiene más créditos que no aparecen en la pensión. Solicítale la clave de la Secretaría de Educación para descargar su desprendible activo y descubrir deudas externas. (Palabras clave requeridas: clave, desprendible, secretaría, educacion, deudas, externas, ocultas, activo, docente, descargar)."
+        },
+        {
+          "step_id": 4,
+          "client_speech": "Ahí tiene la clave... Mire el desprendible, efectivamente tengo una deuda grande con el otro banco que me tiene el salario neto muy afectado mes a mes. ¿Ahí qué se puede hacer?",
+          "focus_eval": "Foco de Ingeniería de Liberación de Sueldo: Descubriste la deuda del rival. Ofrécele usar la ampliación para pagar la cartera del otro banco, unificar sus pasivos y liberarle el sueldo para que le llegue completo. (Palabras clave requeridas: pagar, otro banco, unificar, consolidar, liberar, sueldo, completo, salario, llegar, ampliación)."
+        },
+        {
+          "step_id": 5,
+          "client_speech": "¡Muchacho, me quito el sombrero! Qué capacidad de análisis y qué integridad la suya para desenredar mis cuentas. Efectivamente firmemos los dos créditos por los 150 millones cada uno para liberar mi sueldo.",
+          "focus_eval": "Foco de Cierre Élite por Referidos: Colocación récord de 300 millones firmada en tu último día. Aplica la regla estricta de solicitar referidos comerciales antes de procesar los documentos en el sistema. (Palabras clave requeridas: referido, contacto, profesor, docente, compañero, conocido, recomendar, número, teléfono)."
+        }
+      ]
+    }
+    ,
+    {
+      "id": "caso_4_centralizacion_gustos",
+      "title": "Estrategia de liberación de liquidez por estilo de vida",
+      "client": {
+        "name": "Doña Clara Inés",
+        "role": "Pensionada de Altos Ingresos / Baja Capacidad",
+        "avatar": "C",
+        "context": "Tiene una pensión mensual muy grande en Bogotá, pero debido a créditos dispersos, su capacidad de endeudamiento disponible en el sistema es nula. Quiere viajar y darse gustos."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "Mire joven, yo gano muy bien con mi pensión, pero fui a otra ventanilla y me dijeron que no me pueden prestar más porque ya tengo la capacidad copada por otros crediticos. Yo solo quiero el dinero para viajar y darme mis gustos ahora que puedo.",
+          "focus_eval": "Foco: Plantear solución conectando el alivio técnico al beneficio del estilo de vida. (Palabras clave requeridas: centralizar, unificar, consolidar, reunir, deudas, gusto, viajar, disfrutar, estilo de vida)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "Ay muchacho, me encanta cómo ve las cosas. Nadie me había propuesto limpiar mis deudas para poder viajar tranquila. ¡Aprobemos esa centralización de inmediato!",
+          "focus_eval": "Foco de Cierre Exigente: Venta cerrada, pero el flujo PRO exige solicitar un referido antes de cerrar el caso. (Palabras clave requeridas: referido, contacto, conocido, recomendar, telefono, amigo)."
+        }
+      ]
+    },
+    {
+      "id": "caso_5_estrategia_alianza",
+      "title": "Decano de Universidad en Ibagué",
+      "client": {
+        "name": "Decano Universitario",
+        "role": "Cliente Consentido / Directivo",
+        "avatar": "D",
+        "context": "La gerente se comprometió a sacarle un crédito de consumo en 1 día sabiendo que demora de 4 a 5 días y te lo delegó a ti. El cliente es el decano de una universidad."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "Buenas tardes, la gerente me aseguró que mi desembolso quedaría listo hoy mismo porque lo necesito urgente. Espero que no me salgan con las demoras típicas de los bancos.",
+          "focus_eval": "Foco: Detectar la conexión de valor humano e institucional con el cliente. (Palabras clave requeridas: analista, compañera, especialización, estudiar, universidad, beca, beneficio, ayuda)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "¡Excelente! A las 3 pm ya tengo mi crédito aprobado, tal como me prometieron. Se ganó esa media beca para su compañera sin duda alguna.",
+          "focus_eval": "Foco de Cierre Exigente: Proceso operativo exitoso, pero el flujo PRO exige solicitar un referido antes de cerrar el caso. (Palabras clave requeridas: referido, contacto, profesor, colega, conocido, recomendar)."
+        }
+      ]
+    },
+    {
+      "id": "caso_6_arrebato_competencia",
+      "title": "Gestión de crisis operativa y arrebato a la competencia",
+      "client": {
+        "name": "Don Alberto Restrepo",
+        "role": "Cliente Premium con Cheque de Gerencia",
+        "avatar": "A",
+        "context": "Llega a Facatativá con un cheque de otro banco para compra de cartera. Por normas internas es ilegal recibir el cheque sin la certificación de la deuda. El rival no contesta."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "¡Esto es el colmo de la burocracia! Vengo con el cheque listo para hacer el negocio con ustedes y ahora me salen con que si mi asesor del otro banco no contesta no me pueden atender. Si no me solucionan ya mismo, cojo mi cheque y me voy.",
+          "focus_eval": "Foco: Unirse a su frustración aplicando empatía y activar la campaña de recompra. (Palabras clave requeridas: campaña, recompra, compro, inmediatamente, frustración, entiendo, asesor, molesto, asumo, riesgo, recibo)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "Mire, me quitó un peso de encima. El asesor de allá nunca me contestaba y usted se amarró la de caminar conmigo. Reciba ese cheque y hagamos esa nueva libranza por los 200 millones.",
+          "focus_eval": "Foco de Cierre Exigente: Operación rescatada, pero el flujo PRO exige solicitar un referido antes de cerrar el caso. (Palabras clave requeridas: referido, contacto, conocido, recomendar, amigo, empresa)."
+        }
+      ]
+    },
+    {
+      "id": "caso_7_rompimiento_barrera_digital",
+      "title": "Desconfianza extrema en canales digitales y seguridad",
+      "client": {
+        "name": "Docente Nubia Estela",
+        "role": "Profesora de Municipio (Cundinamarca)",
+        "avatar": "N",
+        "context": "Docente tradicional con desconfianza absoluta hacia trámites digitales. El proceso se congela porque el sistema le exige enviar una foto de su rostro y la clave de sus desprendibles."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "No señor, a mí me da mucha pena pero yo no le voy a mandar fotos de mi cara ni mucho menos mis claves secretas por este chat. Una compañera la robaron así el mes pasado. Dejemos eso de ese tamaño más bien, muchas gracias.",
+          "focus_eval": "Foco: Brindar confianza absoluta rompiendo la barrera virtual mediante movilidad presencial. (Palabras clave requeridas: viajo, viajar, visito, colegio, personalmente, sábado, presencial, confianza)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "Qué alivio tenerlo acá en el colegio el día de hoy, muchacho. Así sí da gusto hacer los trámites, con un asesor de verdad al frente. Firmemos de una vez esos 55 millones.",
+          "focus_eval": "Foco de Cierre Exigente: Crédito de movilidad firmado, pero el flujo PRO exige solicitar un referido antes de cerrar el caso. (Palabras clave requeridas: referido, contacto, profesor, compañero, docente, recomendar)."
+        }
+      ]
+    },
+    {
+      "id": "caso_8_educacion_financiera",
+      "title": "Apertura de Mercados mediante Educación Financiera",
+      "client": {
+        "name": "Rector de Institución Educativa",
+        "role": "Director de Centro Oficial",
+        "avatar": "R",
+        "context": "Ruta comercial al municipio de Tenjo. El rector bloquea el ingreso de ejecutivos bancarios a los salones porque considera que solo van a hostigar y endeudar a sus profesores."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "Buenas tardes. De una vez le informo que aquí no permitimos el ingreso de ejecutivos bancarios a los salones. Los profesores se distraen y terminan llenos de deudas que no pueden pagar.",
+          "focus_eval": "Foco: Cambiar el ángulo de entrada tradicional hacia una propuesta de valor de educación financiera. (Palabras clave requeridas: educación, financiera, taller, charla, capacitación, rector, vigilante, salones, confianza, directores)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "Me parece un criterio diferente y muy instructivo. Tiene mi autorización para pasar a los salones a dictar esa charla de finanzas a los profesores.",
+          "focus_eval": "Foco de Cierre Exigente: Entrada lograda, pero el flujo PRO exige solicitar un referido antes de cerrar el caso. (Palabras clave requeridas: referido, contacto, rector, colegio, conocido, recomendar, telefono)."
+        }
+      ]
+    },
+    {
+      "id": "caso_9_enfoque_cafetero",
+      "title": "El cliente cafetero en el municipio de Garzón",
+      "client": {
+        "name": "Don Manuel Medina",
+        "role": "Productor Cafetero / Microempresario",
+        "avatar": "M",
+        "context": "Evento masivo en Garzón. El cliente manifiesta explícitamente no tener interés en portafolios de consumo bancario tradicionales."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "Gracias joven, pero a mí los créditos de los bancos no me interesan. Esos papeleos de ciudad no sirven para los que trabajamos la tierra.",
+          "focus_eval": "Foco: Adaptar la línea de libre inversión a sus necesidades reales de infraestructura sin burocracia agraria. (Palabras clave requeridas: finca, cafetero, inversión, café, producción, sin avalúo, sin avaluo, libre, rápido, sin trámite, sin tramite)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "¡Ah, caramba! Si es libre inversión y me sirve para la infraestructura de la finca sin avalúos de tierras ni intermediarios, la cosa cambia. Apruébeme esos 50 millones ya mismo.",
+          "focus_eval": "Foco de Cierre Exigente: Capital colocado, pero el flujo PRO exige solicitar un referido antes de cerrar el caso. (Palabras clave requeridas: referido, contacto, vecino, cafetero, conocido, recomendar, telefono)."
+        }
+      ]
+    },
+    {
+      "id": "caso_10_confianza_portafolio",
+      "title": "Omnicanalidad y colocación masiva en Zipaquirá",
+      "client": {
+        "name": "Flujo Masivo de Clientes de Oficina",
+        "role": "Usuarios de Sucursal Exigente",
+        "avatar": "Z",
+        "context": "Jornada de alto rendimiento en Zipaquirá. El asesor debe desplegar una venta cruzada masiva de todo el portafolio transmitiendo una seguridad total."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "Buenos días, vengo a realizar mis operaciones normales en ventanilla, pero veo que la oficina hoy tiene una dinámica comercial bastante activa.",
+          "focus_eval": "Foco: Ejecutar una venta cruzada agresiva y ética inyectando confianza personal absoluta en todo el portafolio. (Palabras clave requeridas: portafolio, todos, seguro, cdt, tarjeta, libranza, confianza, energía, seguridad, transmitir, motivación)."
+        },
+        {
+          "step_id": 2,
+"client_speech": "Increíble su energía, joven, me contagió esa seguridad. Me llevo la tarjeta de crédito, abramos el CDT y firmemos de una vez la libranza del seguro.",
+"focus_eval": "Foco de Cierre Exigente: Jornada récord de 18 productos lograda, pero el flujo PRO exige solicitar un referido antes de cerrar el caso. (Palabras clave requeridas: referido, contacto, familiar, amigo, conocido, recomendar, telefono)."
+}
+]
+}
+]
+}
