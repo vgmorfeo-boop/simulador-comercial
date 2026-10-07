@@ -1,0 +1,38 @@
+{
+  "industry": "BPO & Banca Corporativa Élite",
+  "campaign": "Módulo de Demostración: Ingeniería de Liquidez",
+  "cases": [
+    {
+      "id": "caso_1_ingenieria_liquidez",
+      "title": "Bloqueo por sobreendeudamiento y desconfianza financiera",
+      "client": {
+        "name": "Milena Gómez",
+        "role": "Perfil Altamente Financiero / Inversionista",
+        "avatar": "M",
+        "context": "Su hermano fue rechazado por el banco. Ella tiene excelente historial pero está ahogada en cuotas de tarjetas de crédito. Teme adquirir una nueva obligación mensual que reduzca su caja."
+      },
+      "steps": [
+        {
+          "step_id": 1,
+          "client_speech": "Mire, mi hermano me dio su contacto porque necesito capital urgente para un proyecto, pero yo no voy a tomar otra deudita mensual. Mis tarjetas actuales me tienen con el flujo de caja en el límite y meter otra cuota fija sería un suicidio financiero.",
+          "focus_eval": "Foco de Investigación Inicial: No lances ofertas de créditos aún. Investiga con preguntas abiertas en qué consiste su inversión y cuál es su situación actual con esas tarjetas. (Palabras clave requeridas: invertir, proyecto, negocio, tarjetas, cuotas, pagar, gastar, cuanto)."
+        },
+        {
+          "step_id": 2,
+          "client_speech": "Es para montar un laboratorio clínico con un socio. Respecto a mis tarjetas, tengo tres franquicias Premium y entre las tres pago casi $3.5 millones mensuales en puras cuotas mínimas. El historial lo tengo limpio, pero el flujo mensual me tiene ahogada.",
+          "focus_eval": "Foco de Ingeniería Financiera (Estrategia): Ahora que tienes los datos numéricos y el dolor real (el laboratorio), estructura la unificación de pasivos explicando la liberación de liquidez. (Palabras clave requeridas: unificar, consolidar, comprar, cartera, liquidez, liberar, flujo, caja, ahorro)."
+        },
+        {
+          "step_id": 3,
+          "client_speech": "Me suena interesante lo de limpiar las tarjetas para liberar caja y financiar el laboratorio, pero ¿cómo me garantiza que la cuota final realmente me va a dejar respirar el mes sin aumentar mis gastos actuales?",
+          "focus_eval": "Foco de Estabilidad: Demuestra el beneficio matemático del flujo de caja mensual. (Palabras clave requeridas: cuota, misma, pagando, mensual, estabilidad, tranquilidad)."
+        },
+        {
+          "step_id": 4,
+          "client_speech": "Perfecto, me queda claro el alivio financiero. Hagamos el negocio entonces, gestionemos las firmas de una vez.",
+          "focus_eval": "Foco de Cierre y Multiplicación: El negocio está hecho. Solicita referidos obligatorios antes de cerrar el caso. (Palabras clave requeridas: referido, contacto, conocido, recomendar, amigo, teléfono, número)."
+        }
+      ]
+    }
+  ]
+}
